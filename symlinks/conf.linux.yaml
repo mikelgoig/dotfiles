@@ -6,4 +6,5 @@
       force: true
 
 - link:
+    /etc/default/keyboard: os/linux/configs/keyboard
     ~/.dotly: os/linux/.dotly
