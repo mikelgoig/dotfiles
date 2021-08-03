@@ -1,0 +1,33 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = always
+
+[core]
+	excludesfile = ~/.gitignore_global
+	attributesfile = ~/.gitattributes
+	autocrlf = input
+	trustctime = false
+	precomposeunicode = false
+	ignorecase = false
+
+[diff]
+	compactionHeuristic = true
+	indentHeuristic = true
+
+[fetch]
+	prune = true
+
+[help]
+	autocorrect = 1
+
+[init]
+	defaultBranch = master
+
+[push]
+	default = simple
+
+[user]
+	name = Mikel Goig
+	email = m.goig@docline.com
