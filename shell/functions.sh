@@ -2,11 +2,6 @@ function cdd() {
   cd "$(ls -d -- */ | fzf)" || echo "Invalid directory"
 }
 
-function docker_connect() {
-  containerid=$(docker ps | tail -n +2 | fzf | awk '{print $1}')
-  docker exec -it $containerid bash
-}
-
 function j() {
   fname=$(declare -f -F _z)
 

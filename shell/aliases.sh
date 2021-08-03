@@ -32,4 +32,4 @@ alias o.='open .'
 alias up='dot package update_all'
 
 # Docker
-alias dcon="docker_connect"
+alias dcon="dot docker connect"
