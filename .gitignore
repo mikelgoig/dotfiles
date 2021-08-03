@@ -1,14 +1,15 @@
-# Common
+# Global
+# ----------------------------------
+
+# MacOS
+.DS_Store
+
+# Private Stuff
+/**/**/private-*
+
+# Shell
 # ----------------------------------
 
 # Compiled zsh
 /shell/zsh/**/**.zwc
 /shell/zsh/**/**.zwc.old
-
-# Private Stuff
-/**/**/private-*
-
-# MacOS
-# ----------------------------------
-
-.DS_Store
