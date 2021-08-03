@@ -7,3 +7,8 @@
 
 # Private Stuff
 /**/**/private-*
+
+# MacOS
+# ----------------------------------
+
+.DS_Store
