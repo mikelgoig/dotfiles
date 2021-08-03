@@ -1,16 +1,16 @@
 [color]
+	branch = auto
 	diff = auto
 	status = auto
-	branch = auto
 	ui = always
 
 [core]
-	excludesfile = ~/.gitignore_global
 	attributesfile = ~/.gitattributes
 	autocrlf = input
-	trustctime = false
-	precomposeunicode = false
+	excludesfile = ~/.gitignore_global
 	ignorecase = false
+	precomposeunicode = false
+	trustctime = false
 
 [diff]
 	compactionHeuristic = true
@@ -29,5 +29,5 @@
 	default = simple
 
 [user]
-	name = Mikel Goig
 	email = m.goig@docline.com
+	name = Mikel Goig
