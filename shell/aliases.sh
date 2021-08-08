@@ -2,11 +2,12 @@
 alias sudo='sudo '
 
 # Navigation
-alias ..="cd .."
-alias ...="cd ../.."
-alias ll="ls -l"
-alias la="ls -la"
-alias ~="cd ~"
+alias cl='clear'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ll='ls -l'
+alias la='ls -la'
+alias ~='cd ~'
 alias dotfiles='cd $DOTFILES_PATH'
 alias code="cd $CODE_PATH"
 alias docline="cd $CODE_PATH/docline"
