@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -o pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Clone a GitLab repository
+##?
+##? Usage:
+##?    clone_repository
+docs::parse "$@"
+
+if [ -z "$GITLAB_TOKEN" ]; then
+  echo "You need to setup a GITLAB_TOKEN export"
+
+  exit 2
+fi
+
+user=m.goig
+repo_url=$(curl -s -H "PRIVATE-TOKEN: $GITLAB_TOKEN" "https://gitlab.com/api/v4/projects?membership=true&per_page=100" | jq --raw-output ".[].ssh_url_to_repo" | fzf)
+
+git clone "$repo_url"
+
+echo "$repo_url"
