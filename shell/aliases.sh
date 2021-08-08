@@ -7,6 +7,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ll='ls -l'
 alias la='ls -la'
+
+# Favorite dirs
 alias dotfiles='cd $DOTFILES_PATH'
 alias code='cd $CODE_PATH'
 alias docline='cd $CODE_PATH/docline'
