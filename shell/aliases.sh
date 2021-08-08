@@ -8,7 +8,8 @@ alias ll="ls -l"
 alias la="ls -la"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
-alias c="cd $CODE"
+alias code="cd $CODE_PATH"
+alias docline="cd $CODE_PATH/docline"
 
 # Git
 alias gaa="git add -A"
@@ -27,8 +28,9 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 # Utils
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
-alias c.='(code $PWD &>/dev/null &)'
+alias c.='(vscode $PWD &>/dev/null &)'
 alias o.='open .'
+alias p.='(phpstorm $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 # Docker
