@@ -32,7 +32,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(vscode $PWD &>/dev/null &)'
 alias o.='open .'
 alias p.='(phpstorm $PWD &>/dev/null &)'
-alias up='dot package update_all'
+alias up='$DOTLY_PATH/bin/dot package update_all'
 
 # Docker
-alias dcon='dot docker connect'
+alias dcon='$DOTLY_PATH/bin/dot docker connect'
