@@ -7,7 +7,7 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 ##? Change Gnome Terminal theme
 ##?
 ##? Usage:
-##?    gnome-terminal-theme
+##?    gnome_terminal_theme
 docs::parse "$@"
 
 dconfdir=/org/gnome/terminal/legacy/profiles:
