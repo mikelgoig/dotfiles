@@ -42,3 +42,4 @@ alias o.="open ."
 alias p.="(phpstorm . &>/dev/null &)"
 
 alias up="$DOTLY_PATH/bin/dot package update_all"
+alias uuid="$DOTLY_PATH/bin/dot utils uuid"
