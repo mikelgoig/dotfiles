@@ -29,10 +29,10 @@ alias gl="$DOTLY_PATH/bin/dot git pretty-log"
 
 # Utils
 alias k="kill -9"
-alias i.="(idea $PWD &>/dev/null &)"
-alias c.="(vscode $PWD &>/dev/null &)"
+alias i.="(idea . &>/dev/null &)"
+alias c.="(vscode . &>/dev/null &)"
 alias o.="open ."
-alias p.="(phpstorm $PWD &>/dev/null &)"
+alias p.="(phpstorm . &>/dev/null &)"
 alias up="$DOTLY_PATH/bin/dot package update_all"
 
 # Docker
