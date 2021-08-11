@@ -1,3 +1,6 @@
+# Custom
+*.no-commit.*
+
 # IntelliJ IDEA
 .idea
 *.iml
@@ -7,6 +10,3 @@
 
 # Mac
 .DS_Store
-
-# Custom
-*.no-commit.*
