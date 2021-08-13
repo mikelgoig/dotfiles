@@ -67,6 +67,7 @@ openvpn3
 os-prober
 php7.4-cli
 python-is-python2
+rofi
 shellcheck
 shim-signed
 spotify-client
