@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Open Emote snap
+##?
+##? Usage:
+##?   emoji
+docs::parse "$@"
+
+snap run emote &>/dev/null &
