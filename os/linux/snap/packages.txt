@@ -2,6 +2,7 @@
 brave
 core
 core18
+emote
 gnome-3-28-1804
 gnome-3-34-1804
 gtk-common-themes
