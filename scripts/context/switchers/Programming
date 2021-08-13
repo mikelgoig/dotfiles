@@ -1,0 +1,12 @@
+#!/bin/bash
+
+phpstorm &
+
+while [[ ! $(wmctrl -lx | grep jetbrains-phpstorm.jetbrains-phpstorm) ]]; do
+    echo "sleep"
+    sleep 1
+done
+
+sleep 3
+
+wmctrl -x -a "jetbrains-phpstorm.jetbrains-phpstorm" -b toggle

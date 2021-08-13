@@ -83,5 +83,7 @@ ubuntu-restricted-extras
 ubuntu-standard
 ubuntu-wallpapers
 vim
+wmctrl
 xclip
+xdotool
 zsh
