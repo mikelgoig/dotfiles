@@ -61,6 +61,7 @@ ncurses-bin
 network-manager-openvpn
 network-manager-openvpn-gnome
 node-typescript
+npm
 nvidia-driver-460
 openvpn
 openvpn3
