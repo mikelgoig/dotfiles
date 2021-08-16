@@ -7,4 +7,5 @@
 
 - link:
     /etc/default/keyboard: os/linux/configs/keyboard
+    ~/.config/libinput-gestures.conf: os/linux/configs/libinput-gestures.conf
     ~/.dotly: os/linux/.dotly

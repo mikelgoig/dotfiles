@@ -11,9 +11,11 @@ docker-ce
 docker-ce-cli
 findutils
 firefox-locale-en
+flatpak
 font-manager
 fonts-indic
 fzf
+gettext
 git
 github-desktop
 gnupg
@@ -43,6 +45,7 @@ language-pack-gnome-en-base
 libdebconfclient0
 libfprint-2-tod1
 libgcc1
+libinput-tools
 libllvm9
 libreoffice-help-common
 libreoffice-help-en-gb
@@ -53,6 +56,7 @@ linux-generic-hwe-20.04
 linux-modules-nvidia-460-generic-hwe-20.04
 lsb-release
 make
+meson
 mokutil
 mythes-en-au
 mythes-en-us
@@ -67,7 +71,10 @@ openvpn
 openvpn3
 os-prober
 php7.4-cli
+python-gobject
 python-is-python2
+python3
+python3-gi
 rofi
 shellcheck
 shim-signed
