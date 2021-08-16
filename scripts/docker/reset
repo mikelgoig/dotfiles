@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Remove all Docker containers and volumes
+##?
+##? Usage:
+##?   reset
+docs::parse "$@"
+
+docker rm -f $(docker ps -a -q)
+docker volume rm $(docker volume ls -q)
