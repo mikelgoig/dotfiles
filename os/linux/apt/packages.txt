@@ -13,6 +13,7 @@ docker-ce
 docker-ce-cli
 findutils
 firefox-locale-en
+flameshot
 flatpak
 font-manager
 fonts-indic
