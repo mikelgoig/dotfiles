@@ -1,8 +1,11 @@
 #!/bin/bash
 
 google-chrome --new-window "docline.atlassian.net/secure/RapidBoard.jspa?projectKey=DOCLINE&rapidView=4" && \
-xdotool key super+Shift+Up && \
-xdotool key super+Left &&
+  xdotool key super+Shift+Right && \
+  sleep 1 && \
+  xdotool key super+Left
+
 google-chrome --new-window meet.google.com/goa-qibq-rqv && \
-xdotool key super+Shift+Up && \
-xdotool key super+Right
+  xdotool key super+Shift+Right && \
+  sleep 1 && \
+  xdotool key super+Right

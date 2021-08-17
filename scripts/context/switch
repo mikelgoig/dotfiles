@@ -16,6 +16,4 @@ result=$(cat $CONTEXT_SWITCH_PATH/switchers/switchers.txt | rofi -show -dmenu -t
 
 switcher=$(echo $result | cut -d' ' -f2-)
 
-echo $switcher
-
 source $CONTEXT_SWITCH_PATH/switchers/"$switcher"

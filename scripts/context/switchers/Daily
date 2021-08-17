@@ -1,8 +1,11 @@
 #!/bin/bash
 
 google-chrome --new-window mail.google.com && \
-xdotool key super+Shift+Up && \
-xdotool key super+Left &&
+  xdotool key super+Shift+Right && \
+  sleep 1 && \
+  xdotool key super+Left
+
 google-chrome --new-window meet.google.com/mwe-hriv-hxn && \
-xdotool key super+Shift+Up && \
-xdotool key super+Right && \
+  xdotool key super+Shift+Right && \
+  sleep 1 && \
+  xdotool key super+Right
