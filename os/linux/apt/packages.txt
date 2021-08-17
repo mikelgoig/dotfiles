@@ -21,6 +21,7 @@ fzf
 gettext
 git
 github-desktop
+gnome-sushi
 gnupg
 google-chrome-stable
 grep
