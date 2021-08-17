@@ -6,7 +6,10 @@ emote
 gnome-3-28-1804
 gnome-3-34-1804
 gtk-common-themes
+heidisql-wine
 phpstorm
 postman
 snap-store
 snapd
+wine-platform-6-staging
+wine-platform-runtime

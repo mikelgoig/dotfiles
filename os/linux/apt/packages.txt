@@ -1,7 +1,9 @@
+appstream-util
 apt-transport-https
 base-passwd
 build-essential
 ca-certificates
+chrome-gnome-shell
 containerd.io
 curl
 dash
@@ -75,6 +77,7 @@ python-gobject
 python-is-python2
 python3
 python3-gi
+python3-setuptools
 rofi
 shellcheck
 shim-signed
