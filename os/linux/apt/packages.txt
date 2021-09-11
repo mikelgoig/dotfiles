@@ -20,7 +20,6 @@ fonts-indic
 fzf
 gettext
 git
-github-desktop
 gnome-sushi
 gnupg
 google-chrome-stable
