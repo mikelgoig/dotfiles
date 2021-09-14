@@ -5,7 +5,7 @@ google-chrome --new-window mail.google.com && \
   sleep 1 && \
   xdotool key super+Left
 
-google-chrome --new-window meet.google.com/mwe-hriv-hxn && \
+google-chrome --new-window meet.google.com/ytm-ffbk-wub && \
   xdotool key super+Shift+Right && \
   sleep 1 && \
   xdotool key super+Right
