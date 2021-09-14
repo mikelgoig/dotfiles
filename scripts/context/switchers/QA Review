@@ -5,7 +5,7 @@ google-chrome --new-window "docline.atlassian.net/secure/RapidBoard.jspa?project
   sleep 1 && \
   xdotool key super+Left
 
-google-chrome --new-window meet.google.com/goa-qibq-rqv && \
+google-chrome --new-window $QA_REVIEW_MEET_URL && \
   xdotool key super+Shift+Right && \
   sleep 1 && \
   xdotool key super+Right
