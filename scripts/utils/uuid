@@ -12,8 +12,8 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 docs::parse "$@"
 
 uuid=$(uuidgen | tr '[:upper:]' '[:lower:]')
-echo -n $uuid | pbcopy
-echo $uuid
+echo -n "$uuid" | pbcopy
+echo "$uuid"
 
 if command -v osascript; then
   osascript -e 'display notification "'"$uuid"'" with title "UUID copied to the clipboard"'

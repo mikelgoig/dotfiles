@@ -33,6 +33,8 @@
 
 [push]
 	default = simple
+	autoSetupRemote = true
+	followTags = true
 
 [user]
 	email = m.goig@docline.com

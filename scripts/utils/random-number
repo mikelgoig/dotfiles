@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Generates and copy to the clipboard a random number
+#?? 1.0.0
+##?
+##? Usage:
+##?   random
+docs::parse "$@"
+
+randomNumber=$(date +%s)
+echo -n "$randomNumber" | pbcopy
+echo "$randomNumber"
+
+if command -v osascript; then
+  osascript -e 'display notification "'"$randomNumber"'" with title "Random number copied to the clipboard"'
+fi
