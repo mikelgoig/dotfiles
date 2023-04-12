@@ -1,0 +1,3 @@
+tap "derailed/k9s"
+tap "homebrew/bundle"
+brew "derailed/k9s/k9s"
